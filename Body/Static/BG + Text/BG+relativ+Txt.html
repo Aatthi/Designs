@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <div class="top">
+            <div class="header-wrapper">
+                <h1>mY<span>cafe</span></h1>
+                <nav>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a> </li>
+                        <li><a href="">Our Products</a> </li>
+                        <li><a href="">Our Team</a> </li>
+                        <li><a href="">Gallery</a> </li>
+                        <li><a href="">Contact Us</a> </li>
+                    
+                </nav>
+            </div>
+
+            <div class="main-text">
+                <h1>Passion</h1>
+                <h1>Knowledge </h1>
+                <h1>And Experience</h1>
+                <p>Across five spectacular locations, we offer freshly roasted coffee, award winning dishes a modern-contemporary design. </p>
+            </div>
+        </div>
+
+
+        <div class="middle">
+            <div class="box box1">
+                <img src="Images/2nd-BG.jpg" alt="" width="500px" height="800px" >
+                <div class="box1-text">
+                    <h2>Fresh and Roasted</h2>
+                    <hr>
+                    <p>mYcafe is an independent coffee roaster and eatery. We pride ourselves on the coffee that is roasted by us each week as we seek to deliver to our customers, the most beautiful and wondrous flavours imaginable. Our awarded chefs provide a menu which pair harmoniously with our coffee and beverage selection.</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .top{
+        background-image: url(Images/main-BG.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9;
+        margin: 0;
+    }
+
+    .header-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-wrapper h1{
+        font-size: 40px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgba(255, 255, 255, 0.698);
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+  
+       
+    }
+
+    nav li{
+        padding: 0 50px;
+        list-style: none;
+        font-size: 20px;
+    }
+
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 200px;
+        color: rgb(255, 255, 255);
+        align-items: flex-end;
+        
+    }
+
+    .main-text h1{
+        padding: 10px 0;
+        font-size: 60px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .middle{
+        background: linear-gradient(rgb(255, 255, 255), rgba(128, 128, 128, 0.397));
+        margin: 0;
+    }
+
+    .main-text p{
+        width: 30%;
+        padding: 30px 0;
+        margin-bottom: 200px ;
+        text-align: right;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .box1{
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+
+    }
+
+    .box1-text{
+        align-self: center;
+        margin: 0 100px;
+        font-size: 60px;
+        font-family: 'Montserrat', sans-serif;
+        width: 50%;
+    }
+
+    .box1-text p {
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        width: 60%;
+        margin: 30px 0;
+  
+    }
+
+    .box1-text hr{
+        opacity: 0.4;
+    }
+
+    .box1 img{
+        border-radius: 10px;
+        opacity: 0.9;
+    }
+
+</style>
