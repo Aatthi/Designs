@@ -26,14 +26,14 @@
                 <h1>Passion</h1>
                 <h1>Knowledge </h1>
                 <h1>And Experience</h1>
-                <p>Across five spectacular locations, we offer freshly roasted coffee, award winning dishes a modern-contemporary design. </p>
+                <p>Across five spectacular locations, we offer freshly roasted coffee, award winning dishes inside a modern-contemporary designed venue. </p>
             </div>
         </div>
 
 
         <div class="middle">
             <div class="box box1">
-                <img src="Images/2nd-BG.jpg" alt="" width="500px" height="800px" >
+                <img src="Images/2nd-BG.jpg" alt="" width="600px" height="800px" >
                 <div class="box1-text">
                     <h2>Fresh and Roasted</h2>
                     <hr>
@@ -41,6 +41,33 @@
                 </div>
             </div>
         </div>
+
+        <div class="middle-2">
+            <div class="box box2">
+                <div class="box1-text">
+                    <h2>Our mission</h2>
+                    <hr>
+                    <p>mYcafe is an independent coffee roaster and eatery. We pride ourselves on the coffee that is roasted by us each week as we seek to deliver to our customers, the most beautiful and wondrous flavours imaginable. Our awarded chefs provide a menu which pair harmoniously with our coffee and beverage selection.</p>
+                </div>
+                <img src="Images/3rd-BG.jpg" alt="" width="700px" height="500px" >
+            </div>
+        </div>
+
+        <div class="wrapper">
+     
+            <div class="footer-wrapper">
+                
+                <a href="">About the Bussiness</a>
+                <a href="">Our Company</a>
+                <a href="">Corporate responsibility</a>
+                <a href="">Gallery</a>
+                <a href="">Our team</a>
+                <a href="">Find us</a>
+                <a href="">Careers</a>
+            </div>
+            <p class="copyRight"> Vela Web Design, &copy; 2020.</p>
+        </div>
+        
 </body>
 </html>
 
@@ -135,10 +162,12 @@
     }
 
     .box1-text p {
-        font-size: 25px;
+        font-size: 20px;
         font-family: 'Montserrat', sans-serif;
-        width: 60%;
+        width: 85%;
         margin: 30px 0;
+        letter-spacing: 3px;
+        line-height:30px;
   
     }
 
@@ -151,4 +180,97 @@
         opacity: 0.9;
     }
 
+
+    .middle-2{
+        background: linear-gradient(rgba(128, 128, 128, 0.397), rgb(255, 255, 255));
+        padding: 80px 0 ;
+    }
+
+    .box2{
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+   
+
+    }
+
+    .box2-text{
+        align-self: center;
+        margin: 0 100px;
+        font-size: 60px;
+        font-family: 'Montserrat', sans-serif;
+        width: 50%;
+        
+       
+  
+    }
+
+    .box2-text p {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        width: 85%;
+        margin: 30px 0;
+        letter-spacing: 3px;
+        line-height:30px;
+    
+       
+    }
+
+    .box2-text hr{
+        opacity: 0.4;
+    }
+
+    .box2 img{
+        border-radius: 3px;
+        opacity: 0.9;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+       
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-wrapper {
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        background: rgba(69, 103, 138, 0.055);
+        
+    }
+
+    .footer-wrapper a{
+        margin: 0 30px;
+        color: black;
+        text-decoration: none;
+        padding: 20px 20px;
+    }
+
+    .footer-wrapper a:hover{
+        background: lightslategray;
+        transition: ease-in-out 0.3s;
+        border-radius: 20px;
+        
+    }
+
+    .footer-wrapper a:visited{
+        color: black;
+    }
+
+    .copyRight {
+    color: black;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 2px;
+}
 </style>
