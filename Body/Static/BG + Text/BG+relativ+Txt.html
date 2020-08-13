@@ -14,7 +14,7 @@
                 <nav>
                         <li><a href="">Home</a></li>
                         <li><a href="">About us</a> </li>
-                        <li><a href="">Our Products</a> </li>
+                        <li><a href="">Takeaway</a> </li>
                         <li><a href="">Our Team</a> </li>
                         <li><a href="">Gallery</a> </li>
                         <li><a href="">Contact Us</a> </li>
@@ -38,6 +38,7 @@
                     <h2>Fresh and Roasted</h2>
                     <hr>
                     <p>mYcafe is an independent coffee roaster and eatery. We pride ourselves on the coffee that is roasted by us each week as we seek to deliver to our customers, the most beautiful and wondrous flavours imaginable. Our awarded chefs provide a menu which pair harmoniously with our coffee and beverage selection.</p>
+                    <button>Read more</button>
                 </div>
             </div>
         </div>
@@ -45,9 +46,10 @@
         <div class="middle-2">
             <div class="box box2">
                 <div class="box1-text">
-                    <h2>Our mission</h2>
+                    <h2>Our mission</h2>  
                     <hr>
                     <p>mYcafe is an independent coffee roaster and eatery. We pride ourselves on the coffee that is roasted by us each week as we seek to deliver to our customers, the most beautiful and wondrous flavours imaginable. Our awarded chefs provide a menu which pair harmoniously with our coffee and beverage selection.</p>
+                    <button>Read more</button>
                 </div>
                 <img src="Images/3rd-BG.jpg" alt="" width="700px" height="500px" >
             </div>
@@ -112,17 +114,29 @@
     }
 
     nav li{
-        padding: 0 50px;
+        padding: 0 30px;
         list-style: none;
         font-size: 20px;
+        
+        
     }
 
     .main-text{
         display: flex;
         flex-direction: column;
-        margin: 50px 200px;
+        margin: 20px 200px;
         color: rgb(255, 255, 255);
         align-items: flex-end;
+        
+    }
+
+    li:hover{
+        font-size: 23px;
+        transition: ease-in-out 0.3s;
+        background: #f6d55cca;
+        border-radius: 20px;
+       
+         
         
     }
 
@@ -188,10 +202,25 @@
         font-size: 15px;
         font-family: 'Montserrat', sans-serif;
         width: 85%;
-        margin: 30px 0;
+        margin: 20px 0;
         letter-spacing: 3px;
         line-height:30px;
   
+    }
+
+    .box1-text button{
+        border: 3px solid black;
+        background: transparent;
+        font-size: 20px;
+        padding: 10px 20px;
+        position: relative;
+      
+        cursor: pointer;
+    }
+
+    .box1-text button:hover{
+        padding: 20px 30px;
+        transition: ease-in-out 0.3s;
     }
 
     .box1-text hr{
@@ -201,6 +230,7 @@
     .box1 img{
         border-radius: 10px;
         opacity: 0.9;
+        box-shadow: 0px 0px 15px 15px rgba(128, 128, 128, 0.534);
     }
 
 
@@ -235,8 +265,22 @@
         margin: 30px 0;
         letter-spacing: 3px;
         line-height:30px;
-    
-       
+      
+    }
+
+    .box1-text button{
+        border: 3px solid black;
+        background: transparent;
+        font-size: 20px;
+        padding: 10px 20px;
+        position: relative;
+      
+        cursor: pointer;
+    }
+
+    .box1-text button:hover{
+        padding: 20px 30px;
+        transition: ease-in-out 0.3s;
     }
 
     .box2-text hr{
@@ -246,6 +290,7 @@
     .box2 img{
         border-radius: 3px;
         opacity: 0.9;
+        box-shadow: 0px 0px 15px 15px rgba(128, 128, 128, 0.534);
     }
     *{
         padding: 0;
@@ -282,9 +327,10 @@
     }
 
     .footer-wrapper a:hover{
-        background: lightslategray;
+        background: #f6d55c;
         transition: ease-in-out 0.3s;
         border-radius: 20px;
+        
         
     }
 
